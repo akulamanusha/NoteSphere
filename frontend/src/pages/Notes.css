@@ -1,0 +1,128 @@
+.notes-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #eaf2ff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.notes-header h1 {
+  margin: 0;
+  color: #273c75;
+}
+
+.notes-search {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 1px solid #b8c7e6;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.notes-search:focus {
+  outline: none;
+  border-color: #4c6ef5;
+  box-shadow: 0 0 0 2px rgba(76, 110, 245, 0.15);
+}
+
+.note-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cddcff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(63, 81, 181, 0.08);
+}
+
+.note-card h2 {
+  margin-top: 0;
+  color: #273c75;
+}
+
+.note-card p {
+  line-height: 1.6;
+  color: #34495e;
+}
+
+.note-actions {
+  margin-top: 15px;
+}
+
+.note-actions button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4c6ef5;
+  color: white;
+  font-weight: 600;
+}
+
+.note-actions button:hover {
+  background-color: #364fc7;
+}
+
+.edit-note-form {
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  border: 1px solid #cddcff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(63, 81, 181, 0.08);
+}
+
+.edit-note-form h2 {
+  color: #273c75;
+}
+
+.edit-note-form label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.edit-note-form input,
+.edit-note-form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 8px 0 15px;
+  border: 1px solid #b8c7e6;
+  border-radius: 6px;
+}
+
+.edit-note-form button {
+  padding: 10px 16px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4c6ef5;
+  color: white;
+  font-weight: 600;
+}
+
+.edit-note-form button:hover {
+  background-color: #364fc7;
+}
+
+.back-dashboard {
+  text-decoration: none;
+  color: #7048e8;
+  font-weight: 600;
+}
+
+.back-dashboard:hover {
+  text-decoration: underline;
+}

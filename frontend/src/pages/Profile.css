@@ -1,0 +1,96 @@
+.profile-container {
+  max-width: 600px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 50px 30px;
+  background-color: #eaf2ff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.profile-container h1 {
+  color: #273c75;
+}
+
+.profile-container > a {
+  color: #7048e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-container > a:hover {
+  text-decoration: underline;
+}
+
+.profile-card {
+  margin-top: 25px;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #cddcff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(63, 81, 181, 0.08);
+}
+
+.profile-card h2 {
+  margin-bottom: 20px;
+  color: #273c75;
+}
+
+.profile-card p {
+  margin: 12px 0;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.profile-actions {
+  margin-top: 25px;
+}
+
+.profile-actions button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4c6ef5;
+  color: white;
+  font-weight: 600;
+}
+
+.profile-actions button:hover {
+  background-color: #364fc7;
+}
+
+.profile-edit-form {
+  margin-top: 25px;
+}
+
+.profile-edit-form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  border: 1px solid #b8c7e6;
+  border-radius: 6px;
+}
+
+.profile-edit-form input:focus {
+  outline: none;
+  border-color: #4c6ef5;
+}
+
+.profile-edit-form button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4c6ef5;
+  color: white;
+  font-weight: 600;
+}
+
+.profile-edit-form button:hover {
+  background-color: #364fc7;
+}
